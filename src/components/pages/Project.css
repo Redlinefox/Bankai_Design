@@ -1,0 +1,278 @@
+.video-container {
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.project-info-container {
+  padding: 4rem 10rem;
+  display: flex;
+  flex-flow: column;
+  margin: 0rem auto;
+  /* background-color: #7e7e7e; */
+  background-color: rgb(30, 30, 30);
+  color: #fff;
+}
+
+.heading {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.subheading {
+  margin: 18px auto;
+  line-height: 1.6;
+  width: 90%;
+  max-width: 1400px;
+  text-align: justify;
+}
+
+.project-row {
+  height: auto;
+  display: inline-block;
+  margin: 1.5rem 0;
+  border-radius: 10px;
+}
+
+.project-image {
+  width:50%;
+  height: auto;
+  float: left;
+  object-fit: contain;
+}
+
+.project-image-left {
+  width:50%;
+  height: auto;
+  float: left;
+  object-fit: contain;
+  padding-right: 1rem;
+}
+
+.project-image-right {
+  width:50%;
+  height: auto;
+  float: right;
+  object-fit: cover;
+  padding-left: 1rem;
+}
+.project-image-center {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.project-text > p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  display: flex;
+}
+
+.text-wrapper-left {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  display: flex;
+  text-align: justify;
+  padding-top: 0rem;
+  padding-right: 1rem;
+  white-space: pre-line;
+}
+
+.text-wrapper-right {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  display: flex;
+  text-align: justify;
+  padding-top: 0rem;
+  padding-left: 1rem;
+  white-space: pre-line;
+}
+
+.project-text-center > p {
+  font-size: 1.4rem;
+  margin: 1.5rem auto 0rem auto;
+  width: 85%;
+  line-height: 1.6;
+  display: flex;
+  max-width: 1300px;
+  text-align: justify;
+}
+
+.project-text-center > ol {
+  font-size: 1.4rem;
+  margin: 1rem auto 0rem auto;
+  padding-left: 2.5rem;
+  width: 85%;
+  line-height: 1.6;
+  max-width: 1300px;
+}
+
+.project-social-icon {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  height: 70px;
+  margin: 0 auto;
+}
+
+.social-icon-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.social-icon-wrapper > h2 {
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 1024px){
+.project-info-container {
+  padding: 4rem 6rem;
+}
+
+  .subheading {
+    width: 100%;
+  }
+
+  .project-social-icon{
+    width: 100%;
+  }
+
+  .social-icon-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .social-icon-wrapper > h2 {
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+
+  .social-icon {
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  .project-image-center {
+    width: 100%;
+  }
+
+  .text-wrapper-left, .text-wrapper-right {
+    font-size: 1.1rem;
+    padding: 0;
+  }
+
+  .video-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .project-info-container{
+    padding: 4rem 4rem;
+  }
+
+  .project-image-left, .project-image-right {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+
+  .text-wrapper-left, .text-wrapper-right {
+    font-size: 1.9rem;
+    padding: 0;
+  }
+
+  .social-icon-wrapper > h2 {
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px){
+.project-row {
+  margin: 1rem auto;
+}
+
+  .project-info-container{
+    padding: 2rem 2rem;
+  }
+
+  .project-info-container > h1 {
+    font-size: 2.2rem;
+  }
+
+  .subheading {
+    font-size: 1.1rem;
+  }
+
+  .project-social-icon{
+    flex-wrap: wrap;
+    margin: 0 0;
+  }
+
+  .social-icon {
+    height: 30px;
+  }
+
+  .social-icon-wrapper {
+    margin: 0.5rem auto;
+  }
+
+  .social-icon-wrapper > h2 {
+    font-size: 1.3rem;
+    margin: 0 auto;
+  }
+
+  .project-text-center > p{
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .project-text-center > ol {
+    font-size: 1.2rem;
+  }
+
+  .text-wrapper-left, .text-wrapper-right {
+    font-size: 1.1rem;
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 360px){
+  .subheading {
+    font-size: 1rem;
+  }
+
+  .project-text-center > p{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .text-wrapper-left, .text-wrapper-right {
+    font-size: 1rem;
+    padding: 0;
+  }
+}

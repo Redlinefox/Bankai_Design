@@ -1,0 +1,6 @@
+/build
+/node_modules
+/public
+debug.log
+package.json
+package-lock.json
