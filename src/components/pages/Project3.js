@@ -3,33 +3,33 @@ import './Project.css';
 import Project3Rows from '../Project3Rows';
 
 function Project3() {
-    return (
-        <>
-        <div className='project-info-container'>
-            <h1 className='heading'>C-Hear Case Study</h1>
-            <h2 className='subheading'>In the fall of 2020 I was enrolled in SMU's Hands on Design Thinking course as part of 
-            my UX Design certification. My instructor J. Schuh invited our class to do a case study 
-            for the C-Hear leadership team. &nbsp;Our teams studied their C-Hear Intelligent Format (CHIF) technology and were tasked 
-            with coming up with creative solutions to apply the CHIF in new innovative ways.
-            </h2>
-            <div className='project-social-icon'>
-            <div className='social-icon-wrapper'>
-                <h2>Adobe XD</h2>
-                <img className='social-icon' src='images/adobexd.png' alt='AdobeXD'></img>
-            </div>
-            <div className='social-icon-wrapper'>
-                <h2>Mural.co</h2>
-                <img className='social-icon' src='images/mural-icon.png' alt='Mural icon'></img>
-            </div>
-            <div className='social-icon-wrapper'>
-                <h2>Power Point</h2>
-                <img className='social-icon' src='images/powerpoint-logo.png' alt='PowerPoint icon'></img>
-            </div>
-            </div>
+  return (
+    <>
+      <div className='project-info-container'>
+        <h1 className='heading'>C-Hear Case Study</h1>
+        <h2 className='subheading'>In the fall of 2020 I was enrolled in SMU's Hands on Design Thinking course as part of
+        my UX Design certification. My instructor J. Schuh invited our class to do a case study
+        for the C-Hear leadership team. &nbsp;Our teams studied their C-Hear Intelligent Format (CHIF) technology and were tasked
+        with coming up with creative solutions to apply the CHIF in new innovative ways.
+        </h2>
+        <div className='project-social-icon'>
+          <div className='social-icon-wrapper'>
+            <h2>Adobe XD</h2>
+            <img className='social-icon' src='images/adobexd.png' alt='AdobeXD'></img>
+          </div>
+          <div className='social-icon-wrapper'>
+            <h2>Mural.co</h2>
+            <img className='social-icon' src='images/mural-icon.png' alt='Mural icon'></img>
+          </div>
+          <div className='social-icon-wrapper'>
+            <h2>Power Point</h2>
+            <img className='social-icon' src='images/powerpoint-logo.png' alt='PowerPoint icon'></img>
+          </div>
+        </div>
 
-            <Project3Rows />
+        <Project3Rows />
 
-            {/* <div className='project-row'>
+        {/* <div className='project-row'>
             <img className='project-image-left' src='images/chear/Slide18.png' alt='none'></img>
             <div className='text-wrapper-right'>
                 <p>This is an overview of our process when we were tasked with designing a big idea 
@@ -165,9 +165,9 @@ function Project3() {
                 </p>
             </div>
             </div> */}
-        </div>
-        </>
-    )
+      </div>
+    </>
+  )
 }
 
 export default Project3;
